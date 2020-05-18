@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "assets": {
+      "name": "assets",
+      "isOrdered": true,
+      "folders": {
+        "css": {
+          "name": "css",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "js": {
+          "name": "js",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "notas": {
+          "name": "notas",
+          "isOrdered": true,
+          "folders": {},
+          "files": {
+            "ntoas": 0
+          }
+        }
+      },
+      "files": {}
+    }
+  },
+  "files": {}
+}
