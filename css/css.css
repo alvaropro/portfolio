@@ -1,56 +1,988 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
 body{
-
-}
-
-h1{
-
-    
-
-    font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
-    font-size: 60PX;
-    letter-spacing: 10PX;
-    color: white;
-
-
-
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 
-.menu{
+.div_1{
 
-    width: 100%;
-    height: 100px;
+width: 100%;
+/*height: 1000px;*/
 
-    background-color: #4FC1E1;
+background: #24272a;
+
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+align-items: center;
+
+
+
+
+}
+
+
+
+/*----------------------------------------------------*/
+
+
+
+
+
+.menu-btn-label{
+
+display: none;
+
+
+}
+
+
+.menu_navigation{
+
+width: 100%;
+height: 100px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-family: 'Kanit', sans-serif;
+
+
+
+
+
+}
+
+
+
+
+
+.logo img{
+margin-top: 5px;
+width: 110px;
+height: 55px;
+
+
+}
+
+
+/*--------------------------icono del menu css--------------------------*/
+
+
+/*ocultar checkbox*/
+#btn-menu-checkbox{
+display: block;
+}
+
+/*al pasar el raton por encima*/
+
+
+
+
+
+
+
+/*icono del menu echo con css*/
+.menu-btn-label span
+{
+display: block;
+width: 50px;
+height: 6px;
+margin-bottom: 6px;
+    /*margin-right: 10px;
+    /*position: relative;*/
+
+    background-color: #b42130;
+    border-radius: 3px;
+
+    /*z-index: 1;*/
+
+
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------denuevohacermenu--------------------------*/
+
+
+/*centrado de logo boton y menu*/
+.menu_navigation{
+
+
+
+}
+
+
+
+#btn-menu-checkbox{
+
+    display: none;
+}
+
+.label-boton{
+
+    display: none;
+    /*margin-right: 100px;*/
+    margin-top: 10px;
+
+}
+
+.label-boton:hover{
+
+    cursor: pointer;
+}
+
+
+
+/*div del icono del menu div*/
+.menu-btn-label{
+
+    /*background-color: yellow;*/
+    /*padding: 20px;*/
+
+    /*margin-left: 10px;*/
+}
+
+
+.principal_menu_ul{
 
     display: flex;
-    justify-content: center;
     align-items: center;
 
 
 
+
+
 }
 
-.container{
+.principal_menu_ul li{
 
-    margin-top: 20px;
-    margin-left: 10%;
+    display: flex;
+
+    margin-left: 30px;
+    /*margin-top: 1px;*/
+    margin-bottom: 4px;
+
+
+    /*border: 1px;*/
+    /*background-color: red;*/
+    padding: 12px;
+
+
+
+
+
+}
+
+
+
+
+
+.principal_menu_ul li a{
+
+    color: black;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+
+    color: white;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.principal_menu_ul li a:hover{
+
+    color: #C3C3C3;
+    font-size: 20px;
+
+    text-decoration: none;
+    text-decoration: underline;
+
+
+
+}
+
+
+
+
+
+/*----------------------------------------------------*/
+
+
+
+
+.title_div_1{
+
+
     width: 80%;
-    background-color: red;
+    margin-top: 100px;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 5px;
+
+    /*background-color: red;*/
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+
+    text-align: center;
+
+}
+
+.title_div_2{
+
+    width: 80%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #D2D2D2;
+
+    /*background-color: blue;*/
+    font-family: 'Kanit', sans-serif;
+
+    text-align: center;
+}
+
+
+.buttom_contact{
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 300px;
+    /*height: 200px;*/
+    /*no se porque no funciona*/
+
+    padding: 10px;
+
+    background-color: #fdad6e;
+    border-radius: 5px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+    font-family: 'Fredoka One', cursive;
+    /*font-weight: bolder;*/
+    font-size: 20px;
+    font-weight: lighter;
+
+
+
+}
+
+.buttom_contact:hover{
+
+
+
+    background-color: #ff6600;
+    cursor: pointer;
+
+}
+
+.image_laptop{
+
+
+    width: 1000px;
+
+
+    position: relative;
+
+    /*top: 0px;*/
+    
+    bottom: -50px;
+    /*margin-top: 100px;*/
+
+    max-width: 1000px;
+}
+
+/*.screen_laptop{
+
+width: 61%;
+height: 30vh;
+
+background-color: red; 
+
+position: relative;
+top: -1050px;
+
+
+max-width: 760px;
+}*/
+
+
+/*----------------------------------------------------*/
+.container_2{
+
+    width: 100%;
+    /*height: 350px;*/
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.p_Tecnologias_empleadas{
+
+    margin-top: 130px;
+    font-size: 22px;
+    color: #ADADAD;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+}
+
+.div_imagenes_tecnologias{
+
+
+    width: 80%;
+    max-width: 1165px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /*background-color: red;*/
+    margin-bottom: 80px;
+
+
+
+}
+
+.imagenes_tecnologias{
+
+
+    width: 7%;
+
+    min-width: 65px;
+    /*height: 80px;*/
+    
+    margin-right: 5%;
+
+    /*margin-top: 30px;*/
+    /*background-color: blue;*/
+
+    /*escala de grises*/
+    /* Safari 6.0 - 9.0 */
+
+/*    -webkit-filter: grayscale(100%); 
+
+filter: grayscale(100%);*/
+
+
+}
+
+
+
+/*----------------------------------------------------*/
+.container_proyects{
+
+
+
+width: 100%;
+background-color: #f8f9fb;
+
+display: flex;
+justify-content: center;
+
+}
+
+.container_proyects_80{
+
+width: 80%;
+max-width: 2000px;
+padding: 20px;
+
+display: flex;
+flex-wrap: wrap;
+
+
+justify-content: center;
+
+}
+
+
+
+
+
+
+
+.div_proyecto{
+
+width: 340px;
+
+height: 480px;
+
+
+
+/*background-color: white;*/
+
+
+
+margin-left: 3%;
+margin-top: 10px;
+
+/*  
+border-radius: 10px;
+
+border-top: 0.5px;
+border-left: 0.5px;
+border-right: 0.5px;
+border-bottom: 0.5px;
+
+border-color: black;
+border-style: solid;
+*/
+}
+
+
+
+
+
+
+
+.top_bar_proyects{
+
+width: 100%;
+height: 10%;
+
+background-color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+border-radius: 10px 10px 0px 0px;
+border-top: 0.5px;
+border-left: 0.5px;
+border-right: 0.5px;
+border-bottom: 0.5px;
+border-color: rgba(3,42,60,.2);
+border-style: solid;
+
+
+
+/*    box-shadow: 
+0 0 0 0.5px rgba(3,42,60,.2),
+0 0 0 1px rgba(3,42,60,.1),
+0 14px 28px 0px rgba(3,42,60,.25),
+0 10px 10px 0px rgba(3,42,60,.22);*/
+}
+
+
+
+
+
+.github_buttom{
+    /*    display: flex;
+        justify-content: center;
+        align-items: center;*/
+
+        width: 10%;
+        height: 80%;
+        background-color: white;
+        margin-right: 1%;
+
+        border-radius: 5px;
+
+        border: 0.5px solid rgba(3,42,60,.2);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+
+
+
+
+    }
+
+    .img_github{
+        width: 80%;
+        height: 80%;
+        
+    }
+
+    .github_buttom:hover{
+
+        border: 1px solid #ABABAB;
+
+    }
+
+
+
+
+
+
+
+
+    .title_proyects{
+
+        width: 75%;
+        height: 80%;
+        text-align: center;
+        font-size: 18px;
+
+        font-family: 'Indie Flower', cursive;
+
+        /*background-color: yellow;*/
+        margin-right: 1%;
+        border-radius: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 0.5px solid rgba(3,42,60,.2);
+
+    }
+
+    .like_buttom{
+
+        width: 10%;
+        height: 80%;
+        /*background-color: black;*/
+        border-radius: 5px;
+
+        border: 0.5px solid rgba(3,42,60,.2);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .like_buttom:hover{
+
+        border: 1px solid #ABABAB;
+
+
+    }
+
+    .corazon_img{
+
+        width: 70%;
+        /*height: 70%;*/
+    }
+
+
+
+
+
+
+
+    .image_proyects{
+
+        background-color: white;
+        width: 100%;
+        height: 90%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        border-radius: 0px 0px 10px 10px;
+        border-top: 0.5px;
+        border-left: 0.5px;
+        border-right: 0.5px;
+        border-bottom: 0.5px;
+        border-color: rgba(3,42,60,.2);
+        border-style: solid;
+
+
+
+    /*
+    box-shadow: 
+    0 0 0 0.5px rgba(3,42,60,.2),
+    0 0 0 1px rgba(3,42,60,.1),
+    0 14px 28px rgba(3,42,60,.25),
+    0 10px 10px rgba(3,42,60,.22);*/
+
+    -webkit-box-shadow: 0px 14px 25px 1px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 14px 25px 1px rgba(153,153,153,1);
+    box-shadow: 0px 14px 25px 1px rgba(153,153,153,1);
+}
+
+.img_proyects{
+
+    width: 80%;
+    height: 80%;
+}
+
+
+/*----------------------------------------------------*/
+footer{
+
+    background: #24272a;
+    width: 100%;
+    height: 300px;
+
+}
+
+
+/*----------------------------------------------------*/
+
+@media only screen and (max-width: 1024px){
+
+    .imagenes_tecnologias{
+
+        min-width: 45px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1128px){
+
+    body{
+        background-color: black;
+    }
+
+    .image_laptop{
+
+        width: 800px;
+        /*margin-top: 180px;*/
+
+
+    }
+
+    @media only screen and (max-width: 998px){
+
+        body{
+
+        }
+
+        .image_laptop{
+
+            width: 600px;
+            /*margin-top: 280px;*/
+            /*background-color: red;*/
+
+
+        }
+
+        @media only screen and (max-width: 858px){
+
+
+
+            .image_laptop{
+
+                width: 600px;
+                /*margin-top: 100px;*/
+                /*background-color: red;*/
+            }
+
+
+        }
+
+
+
+        @media only screen and (max-width: 825px){
+
+            body{
+
+
+            }
+
+            .image_laptop{
+
+                /*margin-top: 210px;*/
+                /*background-color: black;*/
+            }
+
+
+        }
+
+        @media only screen and (max-width: 743px){
+
+
+
+            .imagenes_tecnologias{
+
+                min-width: 35px;
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 743px){
+
+
+
+            .div_imagenes_tecnologias{
+
+                width: 100%;
+            }
+
+            .imagenes_tecnologias{
+
+                min-width: 25px;
+
+            }
+
+
+        }
+
+        @media only screen and (max-width: 710px){
+
+            body{
+
+            }
+
+            .image_laptop{
+
+                width: 500px;
+                /*margin-top: 280px;*/
+                /*background-color: red;*/
+            }
+
+
+        }
+
+        @media only screen and (max-width: 547px){
+
+            .image_laptop{
+
+                width: 450px;
+                bottom: -40px;
+                /*margin-top: 280px;*/
+
+            }
+
+
+        }
+
+        @media only screen and (max-width: 484px){
+
+            .image_laptop{
+
+                width: 320px;
+                bottom: -30px;
+                /*margin-top: 340px;*/
+
+
+            }
+
+
+        }
+
+        @media only screen and (max-width: 484px){
+
+            .image_laptop{
+
+                width: 320px;
+                /*margin-top: 340px;*/
+
+
+            }
+
+
+        }
+
+
+        @media only screen and (max-width: 430px){
+
+            .title_div_1{
+
+                font-size: 60px;
+
+
+            }
+
+
+        }
+
+
+
+/*@media only screen and (max-width: 463px){
+
+.title_div_1{
+
+    font-size: 50px;
+
+}
+
+.image_laptop{
+
+    width: 320px;
+    margin-top: 350px;
+
+
+}
+
+
+}*/
+
+/*@media only screen and (max-width: 460px){
+
+.image_laptop{
+
+    width: 320px;
+    margin-top: 0px;
+    
+    background-color: green;
+
+}
+
+
+}
+*/
+
+
+
+
+
+
+
+/*----------------------------------------------------*/
+
+@media only screen and (max-width: 834px) 
+{
+
+
+
+
+
+/*--------------------------menu responsive movil--------------------------*/
+/*video de como hacer el menu adjunto en la carpeta*/
+
+
+/*aparicion del boton*/
+.label-boton{
+
+    display: block;
+}
+
+
+
+.principal_menu_ul{
+
+    width: 100%;
+
+    margin-left: -2000px; /*desplazamiento para desaparecer menu*/
+
+
+    position: absolute;
+    top: 75px;
+
+    background-color: white;
+
+    flex-direction: column;
+
+    z-index: 9999;
+
+    /*display: none;*/
+
+    /*border: 1px red solid;*/
+
+
+
+}
+
+
+.principal_menu_ul li{
+
+    width: 100%;
+
+
     padding: 20px;
+
+    border-top: 1px red solid;
 
     display: flex;
     justify-content: center;
 
+
+
 }
 
-.div_proyecto{
+.li-end-menu-border{
 
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    margin: 5px;
+    border-bottom: 1px red solid;
+}
+
+
+
+
+
+
+
+
+
+
+.principal_menu_ul li a{
+
+
+    text-align: center;
+
+
+
+}
+
+
+#btn-menu-checkbox:checked ~ .principal_menu_ul{
+
+    margin-left: 0; /*desplazamiento para que aparezca*/
+
+    /*display: block;*/
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------maquetacion menu/boton movil--------------------------*/
+
+
 }
